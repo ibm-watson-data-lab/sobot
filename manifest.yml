@@ -1,8 +1,8 @@
 ---
 applications:
 - name: bluemix-hubot
-  memory: 512M
-  command: bin/hubot
+  memory: 2G
+  command: bin/hubot --name stackoverflow-bot --adapter slack
   instances: 1
   services:
     - hubot-redis
