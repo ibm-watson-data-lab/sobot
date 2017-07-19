@@ -1,6 +1,6 @@
 ---
 applications:
-- name: bluemix-hubot
+- name: so-tools-bot
   memory: 2G
   command: bin/hubot --name stackoverflow-bot --adapter slack
   instances: 1
