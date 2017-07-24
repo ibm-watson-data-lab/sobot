@@ -1,8 +1,7 @@
 ---
 applications:
 - name: so-tools-bot
+  host: sobot
   memory: 2G
   command: bin/hubot --name stackoverflow-bot --adapter slack
   instances: 1
-  services:
-    - hubot-redis
