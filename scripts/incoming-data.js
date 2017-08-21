@@ -4,7 +4,7 @@ module.exports = function(robot) {
 
   return robot.router.post('/hubot/stackoverflow/incoming', function(req, res) {
     var room;
-    room = "advo-stack-overflow-t";
+    room = "advo-stack-overflow";
     console.log(req.body);
     var q;
     if(req.body.data.question) {
