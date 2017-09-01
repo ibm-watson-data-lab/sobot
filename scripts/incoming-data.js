@@ -29,7 +29,7 @@ module.exports = function(robot) {
                       [
                       {
                           title: "Author",
-                          value: "<" + q.owner.link + "|" + q.owner.display_name + ">",
+                          value: q.owner.display_name,
                           short: true
                       },
                       {   title:"Tagged",
